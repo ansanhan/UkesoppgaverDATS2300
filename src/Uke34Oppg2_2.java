@@ -4,8 +4,8 @@ public class Uke34Oppg2_2 {
 
         int min_index = min(a);
 
-        System.out.println(min_index);
-        System.out.println(a[min_index]);
+        System.out.println("Indeks til minste tall er " + min_index);
+        System.out.println("Det minste tallet er " + a[min_index]);
     }
     static int min(int[] a) {
         int min_value = a[0];
