@@ -23,6 +23,12 @@ public class Uke35Oppg2_12345 {
         int temp = a[i]; a[i] = a[j]; a[j] = temp;
     }
 
+    public static void bytt(char[] c, int i, int j){
+        char temp = c[i];
+        c[i] = c[j];
+        c[j] = temp;
+    }
+
 
     // Metoden randPerm(int n)                   Programkode 1.1.8 e)
     public static int[] randPerm(int n)  // en effektiv versjon
